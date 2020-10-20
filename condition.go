@@ -24,4 +24,20 @@ func main() {
 		res = -1
 	}
 	fmt.Println(res)
+
+	var flag string= "true"
+	switch flag {
+	case "true":
+		fmt.Println("1、OK")
+		fallthrough
+	case "false":
+		fmt.Println("2、OK")
+	case "true false":
+		fmt.Println("3、OK")
+		fallthrough
+	case "false true":
+		fmt.Println("4、OK")
+	default:
+		fmt.Println("5、OK")
+	}
 }
