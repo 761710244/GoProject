@@ -12,6 +12,7 @@ func main() {
 
 	aaa := 122
 	fmt.Println(aaa)
+
 	var b, c int = 6, 8
 	fmt.Println(b, c)
 

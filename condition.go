@@ -25,7 +25,7 @@ func main() {
 	}
 	fmt.Println(res)
 
-	var flag string= "true"
+	var flag string = "true"
 	switch flag {
 	case "true":
 		fmt.Println("1、OK")
