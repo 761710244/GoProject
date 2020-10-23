@@ -21,11 +21,12 @@ func main() {
 		fmt.Println("No")
 	}
 
-	//initMap
-	hashMap1 := map[int]int{1: 2, 2: 3, 3: 5}
+	//	initMap
+	hashMap1 := map[int]int{1: 2, 2: 3, 3: 5, 6: 8}
 	for key, value := range hashMap1 {
 		fmt.Println(key, value)
 	}
+	//	delete
 	delete(hashMap1, 2)
 	for key, value := range hashMap1 {
 		fmt.Println(key, value)

@@ -28,6 +28,7 @@ func (Niu People2) run() {
 func (Niu People2) laugh() {
 	fmt.Println("person2 laughing")
 }
+
 func main() {
 	var action Action
 	action = new(People1)
